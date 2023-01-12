@@ -1,0 +1,70 @@
+:root{
+    --font-family-sans-serif: "游ゴシック体", "Yu Gothic", YuGothic, "Helvetica Neue", Helvetica, Arial, "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+    --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+}
+
+body {
+    font-family: var(--font-family-sans-serif);
+    color: rgba(0, 0, 0, 0.6);
+    background-color: #f5f6f6;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-family-sans-serif);
+}
+
+a {
+    text-decoration: none;
+}
+  a:hover {
+    text-decoration: underline;
+  }
+
+.body-container {
+    margin-bottom: 250px;
+}
+
+/* ブログ一覧表示枠 */
+.blog-list {
+    background-color: #fff;
+    border-radius: 10px;
+}
+/* いいねボタン */
+.like {
+    cursor: pointer;
+}
+
+/* 自作ページネーション */
+.my-pagination span {
+    padding-top: 2px;
+}
+.my-pagination-button {
+    background-color: #fff;
+    border: 1px solid rgba(0, 0, 0, 0.12);
+    border-radius: 3px;
+    color: rgba(0, 0, 0, 0.6);
+}
+    .my-pagination-button:hover {
+        background-color: rgba(0, 0, 0, 0.12);
+    }
+
+
+footer .logo{
+    font-size: 5em;
+}
+
+footer a{
+    color: #fff;
+}
+footer a:hover {
+    text-decoration: none;
+    opacity: 0.8;
+    color: #fff;
+}
+
+.sns {
+    font-size: 2.5em;
+}
+.sns a {
+    margin: 0px 3px;
+}
